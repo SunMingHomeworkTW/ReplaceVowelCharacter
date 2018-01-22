@@ -11,12 +11,12 @@ public class ReplaceVowelChacterTest {
 
     @Test
     public void shouldReturnTrueWhenInputValid(){
-        assertTrue(replaceVowelChacter.isValid("abc"));
+        assertTrue(replaceVowelChacter.isInputStringValid("abc"));
     }
 
     @Test
     public void shouldReturnFalseWhenInputInvalid(){
-        assertFalse(replaceVowelChacter.isValid("123abc"));
+        assertFalse(replaceVowelChacter.isInputStringValid("123abc"));
     }
 
     @Test
